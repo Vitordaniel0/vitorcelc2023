@@ -1,0 +1,80 @@
+h1 {
+    color: red;
+    text-align: left;
+    font-size: 25px;
+}
+h2{
+    color: gray;
+    text-align: left;
+    font-size: 25px;
+}
+h3{
+    color: red;
+    text-align: left;
+    font-size: 25px;
+}
+h4 {
+    color: gray;
+    text-align: left;
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(241, 235, 235) ;
+
+    text-align: left;
+}
+.imagem1 {
+    width: 40%;
+}
+.imagemcentralizada {
+ text-align: center;
+}
+
+.primeirop {
+    font-style: initial;
+    color: black;
+    font-size: 21px;
+
+}
+.segundop {
+   color: black;
+    font-style: italic;
+    font-size: 21px;
+}
+.lista {
+        display: inline-block;
+        padding: 10%;
+        margin-right: 5%;
+        color: red;
+        padding: 5%;
+        border-color: black;
+        border-width: 20px;
+        border-style: solid;
+        border-radius: 12px 50px 2px 120px;
+        font-size: 25px;
+    }
+
+nav a{
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(26, 25, 25) ;
+    font-weight: 300;
+    font-size: 100%;
+    text-decoration: none ;
+    border-color:rgb(241, 235, 235);
+    border-width: 10px;
+    border-style: solid; 
+    background-color: rgb(241, 235, 235);
+}
+nav a:hover {
+    color: black;
+    text-decoration:  underline overline;
+}
+
+footer {
+    background-color: rgb(241, 235, 235);
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
